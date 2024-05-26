@@ -1,9 +1,9 @@
 package classes;
 
 public class Usuario {
-    private int numero;
-    private String nome;
-    private String agencia;
+    private final int numero;
+    private final String nome;
+    private final String agencia;
     private float saldo;
 
     public void depositar(float valor) {
